@@ -3,8 +3,10 @@
 This is a [datapack][] for Minecraft Java Edition.
 When the pack is loaded creeper explosions will not destroy blocks -
 but explosions will still harm players and mobs.
+Download the pack from the [releases][] page.
 
 [datapack]: https://minecraft.gamepedia.com/Data_pack
+[releases]: https://github.com/hallettj/no_creeper_griefing/releases/latest
 
 ![creeper](https://user-images.githubusercontent.com/9622/83075733-530f0380-a042-11ea-8d25-f9fd9ae2e0d2.png)
 
