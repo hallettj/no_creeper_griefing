@@ -6,6 +6,8 @@ but explosions will still harm players and mobs.
 
 [datapack]: https://minecraft.gamepedia.com/Data_pack
 
+![creeper](https://user-images.githubusercontent.com/9622/83075733-530f0380-a042-11ea-8d25-f9fd9ae2e0d2.png)
+
 The pack works by temporarily disabling the [`mobGriefing`][mobGriefing] game
 rule whenever a player gets close enough to a creeper to cause it to explode.
 `mobGriefing` remains disabled until the same player is at least 26 blocks away
