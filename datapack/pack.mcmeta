@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 5,
-    "description": "mobGriefing false, only if creeper might explode"
+    "description": "Prevent creeper explosions from breaking blocks"
   }
 }
