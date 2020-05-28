@@ -12,10 +12,9 @@ Download the pack from the [releases][] page.
 
 The pack works by temporarily disabling the [`mobGriefing`][mobGriefing] game
 rule whenever a player gets close enough to a creeper to cause it to explode.
-`mobGriefing` remains disabled until the same player is at least 26 blocks away
-from any creeper to ensure that the creeper that got close either has already
-exploded,
-or is not going to explode before `mobGriefing` is switched back on.
+`mobGriefing` remains disabled for 60 ticks,
+which is the time it takes for a creeper to explode,
+and then it is re-enabled.
 
 [mobGriefing]: https://gaming.stackexchange.com/questions/308246/what-does-turning-off-mob-griefing-actually-do/308257
 
