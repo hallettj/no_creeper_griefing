@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 5,
+    "pack_format": 48,
     "description": "Prevent creeper explosions from breaking blocks"
   }
 }
