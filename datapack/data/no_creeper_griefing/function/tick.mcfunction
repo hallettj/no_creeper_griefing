@@ -6,6 +6,10 @@ execute if score #creeperCountdown creeperCountdown matches 1.. run scoreboard p
 # is the number of ticks it takes a creeper to explode.
 execute as @a[gamemode=survival] at @s if entity @e[type=minecraft:creeper,distance=..3,limit=1] run scoreboard players set #creeperCountdown creeperCountdown 60
 
+# And do the same for snow golems, which also trigger creeper explosions on
+# proximity
+execute as @e[type=minecraft:snow_golem] at @s if entity @e[type=minecraft:creeper,distance=..3,limit=1] run scoreboard players set #creeperCountdown creeperCountdown 60
+
 # If creeperCountdown is still counting down (the value is greater than zero)
 # disable mobGriefing. Otherwise re-enable mobGriefing.
 execute if score #creeperCountdown creeperCountdown matches 1.. run gamerule mobGriefing false
