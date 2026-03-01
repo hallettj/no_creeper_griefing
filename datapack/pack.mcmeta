@@ -1,6 +1,9 @@
 {
   "pack": {
-    "pack_format": 48,
+    "pack_format": 94,
+    "supported_formats": [48, 94],
+    "min_format": 48,
+    "max_format": 94,
     "description": "Prevent creeper explosions from breaking blocks"
   }
 }
